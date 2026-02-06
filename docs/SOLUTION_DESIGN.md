@@ -7,14 +7,14 @@
 
 ```
                     ┌─────────────────────────────────┐
-                    │         USER INPUT               │
-                    │  Source: mahabharata.json         │
-                    │  Target: gta_universe.json        │
+                    │         USER INPUT              │
+                    │  Source: mahabharata.json       │
+                    │  Target: gta_universe.json      │
                     └───────────────┬─────────────────┘
                                     │
                     ┌───────────────▼─────────────────┐
-                    │       ORCHESTRATOR               │
-                    │  (Pipeline Controller + Context)  │
+                    │       ORCHESTRATOR              │
+                    │ (Pipeline Controller + Context) │
                     └───────────────┬─────────────────┘
                                     │
           ╔═════════════════════════╧═══════════════════════════╗
@@ -22,91 +22,91 @@
           ╚═════════════════════════╤═══════════════════════════╝
                                     │
                     ┌───────────────▼─────────────────┐
-                    │    AGENT 1: Source Analyzer       │
-                    │    Temp: 0.3 (analytical)         │
-                    │                                   │
-                    │    IN:  Source material JSON       │
-                    │    OUT: Narrative DNA              │
-                    │         - Core themes              │
-                    │         - Character archetypes     │
-                    │         - Plot skeleton            │
-                    │         - Emotional architecture   │
-                    │         - Symbolic elements        │
-                    │         - Power dynamics           │
+                    │    AGENT 1: Source Analyzer     │
+                    │    Temp: 0.3 (analytical)       │
+                    │                                 │
+                    │    IN:  Source material JSON    │
+                    │    OUT: Narrative DNA           │
+                    │         - Core themes           │
+                    │         - Character archetypes  │
+                    │         - Plot skeleton         │
+                    │         - Emotional architecture│
+                    │         - Symbolic elements     │
+                    │         - Power dynamics        │
                     └───────────────┬─────────────────┘
                                     │
           ╔═════════════════════════╧═══════════════════════════╗
-          ║         PHASE 2: WORLD & CHARACTER CONSTRUCTION      ║
+          ║         PHASE 2: WORLD & CHARACTER CONSTRUCTION     ║
           ╚═════════════════════════╤═══════════════════════════╝
                                     │
                     ┌───────────────▼─────────────────┐
-                    │    AGENT 2: World Builder         │
-                    │    Temp: 0.6 (creative+coherent)  │
-                    │                                   │
-                    │    IN:  Target universe JSON       │
-                    │         + Source analysis          │
-                    │    OUT: Realized world with        │
-                    │         - Power structures         │
-                    │         - Social rules             │
-                    │         - Key locations            │
-                    │         - Conflict generators      │
+                    │    AGENT 2: World Builder       │
+                    │    Temp: 0.6 (creative+coherent)│
+                    │                                 │
+                    │    IN:  Target universe JSON    │
+                    │         + Source analysis       │
+                    │    OUT: Realized world with     │
+                    │         - Power structures      │
+                    │         - Social rules          │
+                    │         - Key locations         │
+                    │         - Conflict generators   │
                     └───────────────┬─────────────────┘
                                     │
-                    ┌───────────────▼─────────────────┐
+                    ┌───────────────▼───────────────────┐
                     │    AGENT 3: Character Mapper      │
                     │    Temp: 0.7 (creative)           │
                     │                                   │
-                    │    IN:  Source analysis            │
-                    │         + World building           │
-                    │         + Original character data  │
-                    │    OUT: Transformed characters     │
-                    │         - New identities           │
-                    │         - Preserved essences       │
-                    │         - Signature traits         │
-                    │         - Sample dialogue          │
-                    └───────────────┬─────────────────┘
-                                    │
-          ╔═════════════════════════╧═══════════════════════════╗
-          ║         PHASE 3: PLOT & STORY GENERATION             ║
-          ╚═════════════════════════╤═══════════════════════════╝
-                                    │
-                    ┌───────────────▼─────────────────┐
-                    │    AGENT 4: Plot Transformer     │
-                    │    Temp: 0.7 (creative)          │
-                    │                                  │
                     │    IN:  Source analysis           │
                     │         + World building          │
-                    │         + Character mapping       │
-                    │    OUT: Scene-by-scene outline    │
-                    │         with source parallels     │
-                    └───────────────┬──────────────────┘
-                                    │
-                    ┌───────────────▼─────────────────┐
-                    │    AGENT 5: Story Writer          │
-                    │    Temp: 0.85 (peak creativity)   │
-                    │                                   │
-                    │    IN:  ALL previous outputs       │
-                    │    OUT: Final narrative prose      │
-                    │         (1500-2000 words)          │
-                    └───────────────┬─────────────────┘
+                    │         + Original character data │
+                    │    OUT: Transformed characters    │
+                    │         - New identities          │
+                    │         - Preserved essences      │
+                    │         - Signature traits        │
+                    │         - Sample dialogue         │
+                    └───────────────┬───────────────────┘
                                     │
           ╔═════════════════════════╧═══════════════════════════╗
-          ║         PHASE 4: EVALUATION & SELF-HEALING           ║
+          ║         PHASE 3: PLOT & STORY GENERATION            ║
           ╚═════════════════════════╤═══════════════════════════╝
                                     │
                     ┌───────────────▼─────────────────┐
-                    │   AGENT 6: Consistency Checker    │
-                    │   Temp: 0.2 (strict/analytical)  │
-                    │                                   │
-                    │   IN:  Story + World rules         │
-                    │        + Character specs           │
-                    │   OUT: Issue report + score        │
-                    │        PASS (>= 7) or FAIL        │
+                    │    AGENT 4: Plot Transformer    │
+                    │    Temp: 0.7 (creative)         │
+                    │                                 │
+                    │    IN:  Source analysis         │
+                    │         + World building        │
+                    │         + Character mapping     │
+                    │    OUT: Scene-by-scene outline  │
+                    │         with source parallels   │
                     └───────────────┬─────────────────┘
                                     │
-                              ┌─────▼─────┐
+                    ┌───────────────▼─────────────────┐
+                    │    AGENT 5: Story Writer        │
+                    │    Temp: 0.85 (peak creativity) │
+                    │                                 │
+                    │    IN:  ALL previous outputs    │
+                    │    OUT: Final narrative prose   │
+                    │         (1500-2000 words)       │
+                    └───────────────┬─────────────────┘
+                                    │
+          ╔═════════════════════════╧═══════════════════════════╗
+          ║         PHASE 4: EVALUATION & SELF-HEALING          ║
+          ╚═════════════════════════╤═══════════════════════════╝
+                                    │
+                    ┌───────────────▼─────────────────┐
+                    │   AGENT 6: Consistency Checker  │
+                    │   Temp: 0.2 (strict/analytical) │
+                    │                                 │
+                    │   IN:  Story + World rules      │
+                    │        + Character specs        │
+                    │   OUT: Issue report + score     │
+                    │        PASS (>= 7) or FAIL      │
+                    └───────────────┬─────────────────┘
+                                    │
+                              ┌─────▼──────┐
                               │ Score >= 7?│
-                              └──┬─────┬──┘
+                              └──┬─────┬───┘
                            Yes   │     │   No
                                  │     │
                                  │     └──────► Story Writer RERUNS
@@ -115,21 +115,21 @@
                                  │              ──── Self-Healing Loop ────
                                  │
                     ┌────────────▼────────────────────┐
-                    │    AGENT 7: Critic / Evaluator   │
-                    │    Temp: 0.5 (balanced)          │
-                    │                                   │
-                    │    IN:  Final story + Source       │
-                    │         + Consistency report       │
-                    │    OUT: Quality assessment         │
-                    │         - Storytelling quality     │
-                    │         - Adaptation quality       │
-                    │         - Specific feedback        │
+                    │    AGENT 7: Critic / Evaluator  │
+                    │    Temp: 0.5 (balanced)         │
+                    │                                 │
+                    │    IN:  Final story + Source    │
+                    │         + Consistency report    │
+                    │    OUT: Quality assessment      │
+                    │         - Storytelling quality  │
+                    │         - Adaptation quality    │
+                    │         - Specific feedback     │
                     └───────────────┬─────────────────┘
                                     │
                     ┌───────────────▼─────────────────┐
-                    │        FINAL OUTPUT              │
-                    │   output/05_final_story.md        │
-                    │   + all intermediate artifacts    │
+                    │        FINAL OUTPUT             │
+                    │   output/05_final_story.md      │
+                    │   + all intermediate artifacts  │
                     └─────────────────────────────────┘
 ```
 
