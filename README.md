@@ -262,4 +262,3 @@ python run.py --source data/your_story.json --target data/your_universe.json
 
 ---
 
-*Built as a take-home assignment demonstrating multi-agent AI pipeline design, prompt engineering, and systematic narrative transformation.*
