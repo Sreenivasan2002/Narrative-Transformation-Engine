@@ -24,30 +24,30 @@ Seven specialist AI agents collaborate in a sequential pipeline, each building o
 
 ```
 ┌──────────────┐   ┌──────────────┐   ┌──────────────────┐   ┌──────────────────┐
-│   Source      │──▶│    World     │──▶│    Character      │──▶│      Plot        │
-│   Analyzer    │   │    Builder   │   │    Mapper          │   │    Transformer   │
-│   (temp 0.3)  │   │   (temp 0.6) │   │    (temp 0.7)     │   │    (temp 0.7)    │
+│   Source     │──▶│    World     │──▶│    Character    │──▶│      Plot       │
+│   Analyzer   │   │    Builder   │   │    Mapper        │   │    Transformer   │
+│   (temp 0.3) │   │   (temp 0.6) │   │    (temp 0.7)    │   │    (temp 0.7)    │
 └──────────────┘   └──────────────┘   └──────────────────┘   └──────────────────┘
        │                                                              │
        │              Narrative DNA flows forward ──────────────────▶ │
        │                                                              ▼
        │                                                    ┌──────────────────┐
-       │                                                    │   Story Writer    │
-       │                                                    │   (temp 0.85)     │
+       │                                                    │   Story Writer   │
+       │                                                    │   (temp 0.85)    │
        │                                                    └────────┬─────────┘
        │                                                             │
        │            ┌────────────────────────────────────────────────┘
        │            ▼
        │   ┌──────────────────┐        ┌──────────────────┐
-       │   │   Consistency    │──┐     │   Critic /        │
-       │   │   Checker        │  │     │   Evaluator       │
-       │   │   (temp 0.2)     │  │     │   (temp 0.5)      │
+       │   │   Consistency    │──┐     │   Critic /       │
+       │   │   Checker        │  │     │   Evaluator      │
+       │   │   (temp 0.2)     │  │     │   (temp 0.5)     │
        │   └──────────────────┘  │     └──────────────────┘
        │            │            │              ▲
        │       Score < 7?        │              │
        │            │            │     Score >= 7 → proceed
        │            ▼            │              │
-       │   ┌──────────────┐     │              │
+       │   ┌──────────────┐      │              │
        │   │  Self-Healing │─────┘──────────────┘
        │   │  Rewrite Loop │
        │   └──────────────┘
