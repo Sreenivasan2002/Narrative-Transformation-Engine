@@ -1,0 +1,125 @@
+{
+  "title": "Mahabharata",
+  "origin": "Ancient Indian Epic, attributed to Vyasa",
+  "type": "Epic / Mythology",
+  "public_domain": true,
+  "core_themes": [
+    "Dharma (duty/righteousness) vs Adharma (unrighteousness)",
+    "The moral cost of war and power",
+    "Loyalty and betrayal within family",
+    "The grey area between right and wrong — no side is purely good",
+    "Karma and consequences of choices",
+    "The weight of promises and oaths",
+    "Justice vs revenge"
+  ],
+  "emotional_essence": "A family torn apart by greed, jealousy, and contested inheritance — where even the righteous must commit terrible acts to restore balance, and victory comes at a devastating cost.",
+  "central_conflict": "Two branches of a royal family — the five Pandava brothers (rightful heirs) and their hundred Kaurava cousins (who seized power through deceit) — fight for control of the kingdom of Hastinapura. The conflict escalates from political rivalry to an apocalyptic war that destroys an entire generation.",
+  "major_characters": [
+    {
+      "name": "Yudhishthira",
+      "role": "Eldest Pandava, rightful heir",
+      "traits": ["righteous", "truthful to a fault", "addicted to gambling", "conflicted leader"],
+      "arc": "Must learn that rigid adherence to rules can itself become adharma. Loses everything in a dice game, endures exile, and ultimately wins the war but inherits ashes.",
+      "key_flaw": "His commitment to truth and honor is weaponized against him"
+    },
+    {
+      "name": "Arjuna",
+      "role": "Greatest warrior, third Pandava",
+      "traits": ["skilled", "focused", "emotionally torn", "devoted to Krishna"],
+      "arc": "Faces a moral crisis before the final battle — refuses to fight his own family — and is guided by Krishna's wisdom (Bhagavad Gita). Becomes the instrument of justice.",
+      "key_flaw": "Paralyzed by empathy when action is needed"
+    },
+    {
+      "name": "Bhima",
+      "role": "Strongest Pandava, second brother",
+      "traits": ["immensely powerful", "hot-tempered", "fiercely loyal", "vengeful"],
+      "arc": "Swears to destroy the Kauravas after Draupadi's humiliation. Fulfills every oath, but the violence costs his humanity.",
+      "key_flaw": "Rage that borders on cruelty"
+    },
+    {
+      "name": "Draupadi",
+      "role": "Wife of the five Pandavas, queen",
+      "traits": ["fierce", "intelligent", "proud", "demands justice"],
+      "arc": "Publicly humiliated in court when Yudhishthira gambles her away. Her fury and demand for vengeance becomes the emotional engine of the entire war.",
+      "key_flaw": "Her anger, while justified, fuels an unstoppable cycle of violence"
+    },
+    {
+      "name": "Duryodhana",
+      "role": "Eldest Kaurava, primary antagonist",
+      "traits": ["ambitious", "jealous", "charismatic", "refuses to yield"],
+      "arc": "Believes the throne is rightfully his. Surrounds himself with powerful allies, cheats at dice, orchestrates Draupadi's humiliation, and refuses every peace offer. Dies in the final battle but remains defiant.",
+      "key_flaw": "Envy and inability to share power"
+    },
+    {
+      "name": "Karna",
+      "role": "Secret eldest Pandava, raised as a commoner, fights for the Kauravas",
+      "traits": ["generous", "loyal", "tragic", "the best warrior denied his birthright"],
+      "arc": "Born a Pandava but abandoned at birth, raised by a charioteer. Duryodhana gives him respect when everyone else mocks his caste. He fights for the wrong side out of loyalty and gratitude, knowing he will die.",
+      "key_flaw": "Loyalty to Duryodhana overrides his own dharma"
+    },
+    {
+      "name": "Krishna",
+      "role": "Divine guide, strategist, Arjuna's charioteer",
+      "traits": ["omniscient", "strategic", "morally flexible", "puppetmaster"],
+      "arc": "Guides the Pandavas to victory through wisdom, manipulation, and bending rules when necessary. Delivers the Bhagavad Gita — the philosophical heart of the epic.",
+      "key_flaw": "His ends-justify-means approach sets morally questionable precedents"
+    },
+    {
+      "name": "Bhishma",
+      "role": "Grand patriarch, bound by oath to serve the throne",
+      "traits": ["invincible warrior", "bound by duty", "tragic", "unable to act on his conscience"],
+      "arc": "Knows the Kauravas are wrong but fights for them because of his oath to the throne. Represents the tragedy of institutional loyalty over moral truth.",
+      "key_flaw": "His vow of loyalty traps him on the wrong side"
+    },
+    {
+      "name": "Shakuni",
+      "role": "Duryodhana's uncle, master manipulator",
+      "traits": ["cunning", "vengeful", "patient schemer", "puppet master behind the Kauravas"],
+      "arc": "Orchestrates the rigged dice game. Every move is calculated revenge against the Kuru dynasty for past wrongs done to his family.",
+      "key_flaw": "Revenge consumes him entirely"
+    }
+  ],
+  "key_plot_points": [
+    {
+      "event": "The Contest and Rivalry",
+      "description": "Pandavas and Kauravas grow up together as princes but Duryodhana's jealousy of the Pandavas — especially their popularity and Yudhishthira's claim to the throne — creates a deep rivalry. Multiple assassination attempts on the Pandavas.",
+      "emotional_weight": "Childhood innocence corrupted by political ambition"
+    },
+    {
+      "event": "The Dice Game (Dyut Krida)",
+      "description": "Shakuni orchestrates a rigged game of dice. Yudhishthira, unable to refuse a challenge (dharma of a Kshatriya), gambles away his kingdom, his brothers, himself, and finally Draupadi. She is dragged into court and publicly humiliated.",
+      "emotional_weight": "The point of no return — this is where peace becomes impossible"
+    },
+    {
+      "event": "Draupadi's Humiliation (Vastraharan)",
+      "description": "Duryodhana orders Draupadi to be disrobed in open court. The elders watch in silence. Krishna miraculously protects her. She swears she will not tie her hair until it is washed in Dushasana's blood.",
+      "emotional_weight": "Rage, shame, and the failure of every institution meant to protect the innocent"
+    },
+    {
+      "event": "The Exile (Vanvas)",
+      "description": "Pandavas are exiled for 13 years (12 in forest + 1 year incognito). During exile, they train, gather allies, acquire divine weapons, and plan their return.",
+      "emotional_weight": "Loss, patience, hidden growth, and simmering revenge"
+    },
+    {
+      "event": "Failed Peace Negotiations",
+      "description": "Krishna himself goes as peace envoy, asking Duryodhana for just five villages for the five brothers. Duryodhana refuses, saying he won't give land enough to fit a needle's point. War becomes inevitable.",
+      "emotional_weight": "The last chance for peace, destroyed by ego"
+    },
+    {
+      "event": "Bhagavad Gita — Arjuna's Moral Crisis",
+      "description": "On the battlefield, Arjuna sees his teachers, grandfathers, cousins on the other side and drops his weapons, refusing to fight. Krishna delivers the Bhagavad Gita — a discourse on duty, action, mortality, and the nature of existence.",
+      "emotional_weight": "The philosophical heart — why must good people do terrible things?"
+    },
+    {
+      "event": "The Kurukshetra War (18 days)",
+      "description": "A catastrophic 18-day war destroys millions. Key deaths: Bhishma (felled by Arjuna using Shikhandi as shield), Drona (tricked by a half-truth), Karna (killed when defenseless), Duryodhana (killed by Bhima with a forbidden blow).",
+      "emotional_weight": "Even the righteous side must use deception to win — victory is hollow"
+    },
+    {
+      "event": "The Hollow Victory",
+      "description": "Pandavas win but the cost is devastating. Almost everyone is dead. Yudhishthira inherits a kingdom of widows and orphans. The victory feels like defeat.",
+      "emotional_weight": "Was it worth it? Power gained at the cost of everything you loved."
+    }
+  ],
+  "narrative_structure": "Three-act structure — Setup (rivalry, dice game, humiliation), Confrontation (exile, failed peace, moral crisis), Resolution (war, hollow victory)"
+}

@@ -1,0 +1,34 @@
+{
+  "universe": "Grand Theft Auto (GTA-style Crime Universe)",
+  "setting": {
+    "city": "San Hastina (inspired by Hastinapura)",
+    "description": "A sprawling, corrupt metropolis — part Los Santos, part Vice City. Neon-lit downtown towers owned by the Kuru Corporation sit above a gritty underworld of underground fight clubs, rigged casinos, and drug-running operations. The city runs on three currencies: money, loyalty, and fear.",
+    "era": "Modern day — smartphones, social media, CCTV everywhere, crypto, underground racing",
+    "tone": "Dark, morally grey, violent but with moments of unexpected philosophy. Think GTA V meets The Godfather meets a Scorsese film."
+  },
+  "world_rules": [
+    "Power is held through territory, business fronts, and political connections",
+    "The police are corrupt and can be bought — justice is DIY",
+    "Loyalty is the highest currency — betrayal is punished with death",
+    "Every character carries a weapon and a secret",
+    "Social media and surveillance create a panopticon — secrets don't stay hidden",
+    "Underground fight rings and street races serve as proving grounds",
+    "The city has five boroughs, each controlled by a different crew or family",
+    "Nightclubs, casinos, and chop shops are the key business fronts"
+  ],
+  "genre_conventions": [
+    "Missions and heists structure the narrative",
+    "Each major character has a signature vehicle and weapon",
+    "Radio stations and phone calls deliver exposition",
+    "Betrayal, revenge, and moral ambiguity drive the plot",
+    "Satirical take on capitalism, politics, and social media",
+    "Violence has consequences — heat from cops, rival gangs, media attention",
+    "Cutscenes between action sequences deliver emotional beats",
+    "The protagonist questions whether winning was worth the cost"
+  ],
+  "aesthetic": {
+    "visual": "Neon nights, rain-soaked highways, penthouse views contrasted with gutter-level alleyways",
+    "audio": "Hip-hop, Indian classical fusion, trap beats, philosophical monologues over drive sequences",
+    "mood": "Stylish nihilism punctuated by genuine human connection"
+  }
+}
