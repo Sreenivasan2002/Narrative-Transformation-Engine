@@ -24,7 +24,7 @@ Seven specialist AI agents collaborate in a sequential pipeline, each building o
 
 ```
 ┌──────────────┐   ┌──────────────┐   ┌──────────────────┐   ┌──────────────────┐
-│   Source     │──▶│    World     │──▶│    Character    │──▶│      Plot       │
+│   Source     │──▶│    World     │──▶│    Character    │──▶│      Plot        │
 │   Analyzer   │   │    Builder   │   │    Mapper        │   │    Transformer   │
 │   (temp 0.3) │   │   (temp 0.6) │   │    (temp 0.7)    │   │    (temp 0.7)    │
 └──────────────┘   └──────────────┘   └──────────────────┘   └──────────────────┘
